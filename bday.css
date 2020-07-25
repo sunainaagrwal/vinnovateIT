@@ -1,0 +1,50 @@
+.hex{
+    height: 300px;
+    width: 300px;
+    display: inline-block;
+    font-size: 3.5em;
+    background-color: whitesmoke;
+    border: 3px solid wheat;
+    margin: 23px 23px;
+    padding: 10px 10px;
+    text-align: center;
+    font-family: 'Grenze Gotisch', cursive;
+}
+.bin{
+    height: 300px;
+    width: 300px;
+    display: inline-block;
+    position: absolute;
+    right: 5%;
+    font-size: 1.5em;
+    background-color: whitesmoke;
+    border: 3px solid wheat;
+    margin: 23px 23px;
+    padding: 10px 10px;
+    text-align: center;
+    font-family: 'Grenze Gotisch', cursive;
+}
+img#self_portrait{
+    border: 3px solid black;
+    border-radius: 5px;
+    height: 300px;
+    width: 300px;
+    position: relative;
+    left: 13%;
+}
+code{
+    background-color: black;
+    color: white;
+    display: block;
+}
+
+footer{
+    /* position: absolute; */
+    bottom: 0px;
+    /* background-color: aqua; */
+    color: chocolate;
+}
+#footer img{
+    height: 30px;
+    width: 30px;
+}

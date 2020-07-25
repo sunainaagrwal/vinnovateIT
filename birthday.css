@@ -1,0 +1,134 @@
+/* countdown */
+
+.ib{
+    border: 2px solid teal;
+    border-radius: 10px;
+    background-color: rgba(76, 175, 80, 0.3);
+}
+.ib p{
+    display: inline;
+}
+.bg{
+    
+        background: rgba(76, 175, 80, 0.3) /* Green background with 30% opacity */
+    
+}
+#countdown{
+    background-color: rgb(0, 0, 0);
+    background-image: url("bg.png");
+    opacity: 0.9;
+}
+
+.timer{
+    /* background-color: rgb(0, 0, 0); */
+    color: white;
+    /* display: inline; */
+    font-size: 4em;
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+}
+/* image */
+.hex{
+    height: 300px;
+    width: 300px;
+    display: inline-block;
+    font-size: 3.5em;
+    background-color: whitesmoke;
+    border: 3px solid wheat;
+    margin: 23px 23px;
+    padding: 10px 10px;
+    text-align: center;
+    font-family: 'Grenze Gotisch', cursive;
+}
+.bin{
+    height: 300px;
+    width: 300px;
+    display: inline-block;
+    position: absolute;
+    right: 5%;
+    font-size: 1.7em;
+    background-color: whitesmoke;
+    border: 3px solid wheat;
+    margin: 23px 23px;
+    padding: 10px 10px;
+    text-align: center;
+    font-family: 'Grenze Gotisch', cursive;
+}
+img#self_portrait{
+    border: 3px solid black;
+    border-radius: 5px;
+    height: 300px;
+    width: 300px;
+    position: relative;
+    left: 13%;
+}
+/* COde section */
+
+code{
+    background-color: black;
+    color: white;
+    display: block;
+}
+details{
+    border: 5px solid blue;
+    margin: 10px 10px;
+    padding: 8px 8px;
+    font-size: 1.5em;
+}
+summary{
+    border: 3px solid lightblue;
+    margin: 6px 6px;
+    padding: 7px 7px;
+}
+details:hover{
+    background-color: whitesmoke;
+    
+}
+
+
+/* Footer */
+#footer{
+    background-color: aqua;
+}
+
+footer{
+    /* position: absolute; */
+    bottom: 0px;
+    /* background-color: aqua; */
+    color: chocolate;
+}
+
+
+.footext{
+    font-size: 2em;
+    text-align: center;
+}
+#footer img{
+    height: 30px;
+    width: 30px;
+}
+
+.tooltip { 
+    /* position: relative; */
+    /* display: inline-block; */
+    border-bottom: 1px dotted black;
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+    font-size: 20px;
+  } 

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <link rel="icon" type="image/jpeg" href="fav.jpg">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Happy Birthday Pranchal</title>
+        <link rel="stylesheet" href="birthday.css">
+        <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@500&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <section id="countdown">
+            <div class="bg">
+                <div class="timer">
+                    <div class="ib">
+
+                        Wishes in
+                        <p id="demo"></p>
+                    </div>
+
+                </div>
+                <section>
+                    <div class="hex tooltip">
+                        4861707 <br> 0792042 <br> 6972746 <br> 8646179
+                        <span class="tooltiptext">Hexadecimal</span>
+                    </div>
+                    <img src="Picture1.jpg" alt="birthday boy" id="self_portrait">
+                    <div class="bin tooltip">
+                        01001000 01100001 01110000 01110000 <br> 01111001 00100000 01000010 <br> 01101001 01110010
+                        01110100
+                        <br>
+                        01101000 01100100 01100001 01111001
+                        <span class="tooltiptext">Binary</span>
+                    </div>
+                </section>
+            </div>
+        </section>
+        <div class="languages">
+
+            <details>
+                <summary>
+                    Wishes in Tim-Berners Lee's Language
+                </summary>
+                <code>
+                &lt;!DOCTYPE html&gt; <br>
+                &lt;html lang="en"&gt; <br>
+                &lt;head&gt; <br>
+                    &lt;meta charset="UTF-8"&gt; <br>
+                    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt; <br>
+                    &lt;title&gt;Happy Birthday PC&lt;/title&gt; <br>
+                &lt;/head&gt; <br>
+                &lt;body&gt; <br>
+                    Wishing you loads of happiness and success. Hope you achieve everything in life. God bless you! :) <br>
+                &lt;/body&gt; <br>
+                &lt;/html&gt; <br>
+            </code>
+
+            </details>
+            <details>
+                <summary>
+                    Wishes in Bjarne Stroustrup's language
+                </summary>
+                <code>
+                &#35;include &lt;iostream&gt; <br>
+                    using namespace std; <br>
+                    
+                    void special(){ <br>
+                        for(int i=0;i&lt;19;i++){ <br>
+                            wishes++; <br>
+                            happiness++; <br>
+                            success++; <br>
+                            friendship++; <br>
+                            luck++; <br>
+                        } <br>
+                        cout&lt;&lt;"HAPPY BIRTHDAY FRIEND!" <br>
+                    } <br>
+                    int main() <br>
+                    { <br>
+                        special(); <br>
+                    
+                        return 0; <br>
+                    } <br>
+            </code>
+
+            </details>
+            <details>
+                <summary>
+                    Wishes in Guido van Rossum's language
+                </summary>
+                <code>
+                a="Happy" <br>
+                b="Birthday" <br>
+                c="Pranchal" <br>
+                for i in a: <br>
+                    for j in b: <br>
+                        for k in c: <br>
+                            print(i,j,k) <br>
+            </code>
+
+            </details>
+
+        </div>
+        <div id="footer">
+            <footer>
+                <hr>
+                <div class="footext">
+                    Made with <img src="heart-icon-y1k.png" alt="love"> by Sunaina
+                </div>
+            </footer>
+        </div>
+    </body>
+
+    <script>
+        var countDownDate = new Date("Sept 4, 2020 00:00:00").getTime();
+        var x = setInterval(function () {
+            var now = new Date().getTime();
+            var distance = countDownDate - now;
+            var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+            document.getElementById("demo").innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+            if (distance < 0) {
+                clearInterval(x);
+                document.getElementById("demo").innerHTML = "EXPIRED";
+            }
+        }, 1000);
+    </script>
+
+</html>
